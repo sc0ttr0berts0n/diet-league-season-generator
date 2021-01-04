@@ -187,6 +187,7 @@ const getDeviationScore = (players, matches) => {
     // );
 
     if (min === 0) {
+        console.log('hi');
         return Infinity;
     }
     const deviationSum = deviations.reduce((acc, cur) => acc + cur, 0);
@@ -236,10 +237,10 @@ let bestSeason;
 let bestDeviationScore = Infinity;
 let bestSeasonSeed = 0;
 let startTime = Date.now();
-for (let i = 10000; i <= 20000; i++) {
+for (let i = 0; i <= 20000; i++) {
     seed = i;
     let loopStartSeed = seed;
-    generateSeason(16, 20);
+    generateSeason(5, 20);
 
     if (
         currentDeviationScore < bestDeviationScore &&
