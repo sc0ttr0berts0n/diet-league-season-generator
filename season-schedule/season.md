@@ -1,83 +1,126 @@
-# Pack 1
+# Season Schedule
 
--   G01[Hoobsher & Calvin vs. Skat & Nerd Cruncher](...)
--   G02[Hoobsher & Dad vs. Catcher & Lord Bro](...)
--   G03[Skat & Jengaleng vs. RetroFro & Calvin](...)
--   G04[Nerd Cruncher & Theo vs. RetroFro & FieldDay](...)
--   G05[Theo & Catcher vs. Jengaleng & Jewish](...)
--   G06[Skat & FieldDay vs. Theo & Complx](...)
--   G07[Beans & Awod vs. Skat & Dad](...)
--   G08[Beans & Chck vs. Complx & Jengaleng](...)
+## Pack 0
 
-# Pack 2
+-   [ ] [G01] (DreDre & Chump vs. YJF & Awod)
+-   [ ] [G02] (Nerd Cruncher & Skat vs. Beans & Axiel)
+-   [ ] [G03] (Dad & Hoobsher vs. GrayMarker & Nightly)
+-   [ ] [G04] (Chck & Jengaleng vs. FieldDay & RetroFro)
+-   [ ] [G05] (Catcher & Complx vs. LordBro & FDR)
+-   [ ] [G06] (Dad & Chck vs. Jengaleng & Awod)
+-   [ ] [G07] (GrayMarker & Complx vs. Axiel & YJF)
+-   [ ] [G08] (Nightly & Nerd Cruncher vs. Chump & LordBro)
+-   [ ] [G09] (DreDre & Skat vs. Catcher & Hoobsher)
+-   [ ] [G10] (FDR & RetroFro vs. FieldDay & Beans)
 
--   G09[Skat & Complx vs. Calvin & Dad](...)
--   G10[FieldDay & Awod vs. Dad & Jewish](...)
--   G11[Hoobsher & Jewish vs. Theo & Chck](...)
--   G12[Nerd Cruncher & Dad vs. Beans & Catcher](...)
--   G13[Skat & Calvin vs. FieldDay & Complx](...)
--   G14[RetroFro & Complx vs. Hoobsher & Jengaleng](...)
--   G15[Nerd Cruncher & Complx vs. Beans & Jewish](...)
--   G16[Dad & Awod vs. Chck & Jengaleng](...)
+## Pack 1
 
-# Pack 3
+-   [ ] [G11] (Nightly & DreDre vs. Skat & Awod)
+-   [ ] [G12] (Chump & RetroFro vs. YJF & Jengaleng)
+-   [ ] [G13] (LordBro & GrayMarker vs. Chck & FieldDay)
+-   [ ] [G14] (Dad & Complx vs. FDR & Nerd Cruncher)
+-   [ ] [G15] (Beans & Hoobsher vs. Catcher & Axiel)
+-   [ ] [G16] (LordBro & Dad vs. Complx & Awod)
+-   [ ] [G17] (Chck & Hoobsher vs. Jengaleng & Skat)
+-   [ ] [G18] (FieldDay & Chump vs. DreDre & Catcher)
+-   [ ] [G19] (Nightly & RetroFro vs. Beans & GrayMarker)
+-   [ ] [G20] (Axiel & Nerd Cruncher vs. FDR & YJF)
 
--   G17[Nerd Cruncher & Beans vs. Calvin & Complx](...)
--   G18[Chck & Dad vs. Nerd Cruncher & Jengaleng](...)
--   G19[Jengaleng & Awod vs. Skat & Beans](...)
--   G20[FieldDay & Dad vs. Calvin & Jewish](...)
--   G21[Catcher & Awod vs. Chck & Calvin](...)
--   G22[Hoobsher & Theo vs. Lord Bro & Calvin](...)
--   G23[FieldDay & Lord Bro vs. Beans & RetroFro](...)
--   G24[Hoobsher & Lord Bro vs. Theo & Jewish](...)
+## Pack 2
 
-# Pack 4
+-   [ ] [G21] (FieldDay & Nightly vs. RetroFro & Awod)
+-   [ ] [G22] (DreDre & Nerd Cruncher vs. Skat & Complx)
+-   [ ] [G23] (Catcher & Chck vs. Dad & FDR)
+-   [ ] [G24] (LordBro & Hoobsher vs. Axiel & Chump)
+-   [ ] [G25] (YJF & GrayMarker vs. Beans & Jengaleng)
+-   [ ] [G26] (Catcher & LordBro vs. Hoobsher & Awod)
+-   [ ] [G27] (Dad & GrayMarker vs. Complx & RetroFro)
+-   [ ] [G28] (FDR & DreDre vs. Nightly & Beans)
+-   [ ] [G29] (FieldDay & Nerd Cruncher vs. YJF & Chck)
+-   [ ] [G30] (Jengaleng & Chump vs. Axiel & Skat)
 
--   G25[Hoobsher & Complx vs. Theo & Jengaleng](...)
--   G26[FieldDay & Jengaleng vs. Nerd Cruncher & Lord Bro](...)
--   G27[Theo & FieldDay vs. Nerd Cruncher & Catcher](...)
--   G28[RetroFro & Lord Bro vs. Nerd Cruncher & Chck](...)
--   G29[Chck & FieldDay vs. RetroFro & Jewish](...)
--   G30[Theo & Dad vs. Chck & RetroFro](...)
--   G31[Skat & Jewish vs. Catcher & Chck](...)
--   G32[Catcher & RetroFro vs. Complx & Awod](...)
+## Pack 3
 
-# Pack 5
+-   [ ] [G31] (FDR & FieldDay vs. Nerd Cruncher & Awod)
+-   [ ] [G32] (Nightly & Chump vs. RetroFro & Hoobsher)
+-   [ ] [G33] (Beans & Dad vs. LordBro & Axiel)
+-   [ ] [G34] (Catcher & GrayMarker vs. Jengaleng & DreDre)
+-   [ ] [G35] (Skat & Chck vs. YJF & Complx)
+-   [ ] [G36] (Beans & Catcher vs. GrayMarker & Awod)
+-   [ ] [G37] (LordBro & Chck vs. Hoobsher & Nerd Cruncher)
+-   [ ] [G38] (Axiel & Nightly vs. FieldDay & YJF)
+-   [ ] [G39] (FDR & Chump vs. Skat & Dad)
+-   [ ] [G40] (Complx & DreDre vs. Jengaleng & RetroFro)
 
--   G33[Skat & Catcher vs. Lord Bro & Complx](...)
--   G34[Nerd Cruncher & Calvin vs. Hoobsher & Chck](...)
--   G35[Lord Bro & Jewish vs. Calvin & Jengaleng](...)
--   G36[RetroFro & Dad vs. Beans & Theo](...)
--   G37[Complx & Jewish vs. Dad & Jengaleng](...)
--   G38[Skat & Theo vs. Beans & FieldDay](...)
--   G39[Lord Bro & Awod vs. RetroFro & Jengaleng](...)
--   G40[Catcher & Jewish vs. Skat & RetroFro](...)
+## Pack 4
 
-# Pack 6
+-   [ ] [G41] (Axiel & FDR vs. Chump & Awod)
+-   [ ] [G42] (FieldDay & DreDre vs. Nerd Cruncher & GrayMarker)
+-   [ ] [G43] (YJF & LordBro vs. Catcher & Jengaleng)
+-   [ ] [G44] (Beans & Chck vs. Complx & Nightly)
+-   [ ] [G45] (RetroFro & Dad vs. Skat & Hoobsher)
+-   [ ] [G46] (YJF & Beans vs. Chck & Awod)
+-   [ ] [G47] (Catcher & Dad vs. GrayMarker & Chump)
+-   [ ] [G48] (Jengaleng & FieldDay vs. FDR & Skat)
+-   [ ] [G49] (Axiel & DreDre vs. RetroFro & LordBro)
+-   [ ] [G50] (Hoobsher & Nightly vs. Complx & Nerd Cruncher)
 
--   G41[Hoobsher & RetroFro vs. Beans & Calvin](...)
--   G42[Hoobsher & FieldDay vs. Chck & Awod](...)
--   G43[Nerd Cruncher & Jewish vs. FieldDay & Calvin](...)
--   G44[Hoobsher & Catcher vs. Theo & Calvin](...)
--   G45[FieldDay & Jewish vs. Catcher & Jengaleng](...)
--   G46[Catcher & Complx vs. Nerd Cruncher & Awod](...)
--   G47[Nerd Cruncher & FieldDay vs. Skat & Hoobsher](...)
--   G48[Skat & Lord Bro vs. Catcher & Calvin](...)
+## Pack 5
 
-# Pack 7
+-   [ ] [G51] (Jengaleng & Axiel vs. DreDre & Awod)
+-   [ ] [G52] (FDR & Nightly vs. Chump & Chck)
+-   [ ] [G53] (Skat & Catcher vs. Beans & Complx)
+-   [ ] [G54] (YJF & Dad vs. Hoobsher & FieldDay)
+-   [ ] [G55] (Nerd Cruncher & LordBro vs. RetroFro & GrayMarker)
+-   [ ] [G56] (Skat & YJF vs. Dad & Awod)
+-   [ ] [G57] (Beans & LordBro vs. Chck & DreDre)
+-   [ ] [G58] (Complx & FDR vs. Axiel & RetroFro)
+-   [ ] [G59] (Jengaleng & Nightly vs. Nerd Cruncher & Catcher)
+-   [ ] [G60] (GrayMarker & FieldDay vs. Hoobsher & Chump)
 
--   G49[Theo & Awod vs. Complx & Dad](...)
--   G50[Nerd Cruncher & RetroFro vs. Hoobsher & Awod](...)
--   G51[Theo & RetroFro vs. Beans & Dad](...)
--   G52[Lord Bro & Dad vs. Beans & Jengaleng](...)
--   G53[Hoobsher & Beans vs. Catcher & Dad](...)
--   G54[Catcher & FieldDay vs. RetroFro & Awod](...)
--   G55[Beans & Lord Bro vs. Awod & Jewish](...)
--   G56[Nerd Cruncher & Hoobsher vs. Chck & Jewish](...)
+## Pack 6
 
-# Pack 8
+-   [ ] [G61] (Complx & Jengaleng vs. Nightly & Awod)
+-   [ ] [G62] (Axiel & FieldDay vs. DreDre & Dad)
+-   [ ] [G63] (RetroFro & Beans vs. YJF & Hoobsher)
+-   [ ] [G64] (Skat & LordBro vs. GrayMarker & FDR)
+-   [ ] [G65] (Chump & Catcher vs. Nerd Cruncher & Chck)
+-   [ ] [G66] (RetroFro & Skat vs. LordBro & Awod)
+-   [ ] [G67] (YJF & Catcher vs. Dad & Nightly)
+-   [ ] [G68] (Hoobsher & Axiel vs. Jengaleng & Nerd Cruncher)
+-   [ ] [G69] (Complx & FieldDay vs. Chump & Beans)
+-   [ ] [G70] (Chck & FDR vs. GrayMarker & DreDre)
 
--   G57[Theo & Lord Bro vs. Skat & Awod](...)
--   G58[Skat & Chck vs. Lord Bro & Jengaleng](...)
--   G59[Chck & Complx vs. Calvin & Awod](...)
--   G60[Chck & Lord Bro vs. Beans & Complx](...)
+## Pack 7
+
+-   [ ] [G71] (Hoobsher & Complx vs. FieldDay & Awod)
+-   [ ] [G72] (Jengaleng & FDR vs. Nightly & LordBro)
+-   [ ] [G73] (Nerd Cruncher & YJF vs. Skat & GrayMarker)
+-   [ ] [G74] (RetroFro & Catcher vs. Chck & Axiel)
+-   [ ] [G75] (DreDre & Beans vs. Chump & Dad)
+-   [ ] [G76] (Nerd Cruncher & RetroFro vs. Catcher & Awod)
+-   [ ] [G77] (Skat & Beans vs. LordBro & FieldDay)
+-   [ ] [G78] (GrayMarker & Jengaleng vs. Complx & Chump)
+-   [ ] [G79] (Hoobsher & FDR vs. DreDre & YJF)
+-   [ ] [G80] (Dad & Axiel vs. Chck & Nightly)
+
+## Pack 8
+
+-   [ ] [G81] (GrayMarker & Hoobsher vs. FDR & Awod)
+-   [ ] [G82] (Complx & Axiel vs. FieldDay & Catcher)
+-   [ ] [G83] (Chump & Skat vs. RetroFro & Chck)
+-   [ ] [G84] (Nerd Cruncher & Beans vs. Dad & Jengaleng)
+-   [ ] [G85] (Nightly & YJF vs. DreDre & LordBro)
+-   [ ] [G86] (Chump & Nerd Cruncher vs. Beans & Awod)
+-   [ ] [G87] (RetroFro & YJF vs. Catcher & FDR)
+-   [ ] [G88] (Chck & Complx vs. Hoobsher & DreDre)
+-   [ ] [G89] (GrayMarker & Axiel vs. Nightly & Skat)
+-   [ ] [G90] (LordBro & Jengaleng vs. Dad & FieldDay)
+
+## Pack 9
+
+-   [ ] [G91] (Chck & GrayMarker vs. Axiel & Awod)
+-   [ ] [G92] (Hoobsher & Jengaleng vs. FDR & Beans)
+-   [ ] [G93] (DreDre & RetroFro vs. Nerd Cruncher & Dad)
+-   [ ] [G94] (Chump & YJF vs. LordBro & Complx)
+-   [ ] [G95] (FieldDay & Skat vs. Nightly & Catcher)

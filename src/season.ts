@@ -2,6 +2,7 @@ declare global {
     type Player = string;
     type Team = [Player, Player];
     type Match = [Team, Team];
+    type Schedule = Match[][];
     interface SeasonOptions {
         seed?: number;
         playerCount?: number;
@@ -17,6 +18,7 @@ declare global {
 export default class Season {
     public matches: Match[];
     public teams: Team[];
+    public schedule: Schedule[];
     public opts: SeasonOptions;
     public players: Player[];
     public rejectZeros: boolean;
@@ -41,6 +43,7 @@ export default class Season {
         this.players = this.getLetterSequenceArray(this.opts.playerCount);
         this.matches = this.assignMatchesViaWhistAlgorithm();
         this.teams = this.matches.flat();
+        this.schedule = this.getSchedule();
     }
 
     rng() {
@@ -244,4 +247,57 @@ export default class Season {
         const deviationScore = deviationSum / deviations.length;
         return deviationScore;
     };
+
+    getSchedule(packCount = 10) {
+        // const packs = new Array(packCount).fill(new Set());
+        const packs = new Array(packCount).fill(0).map((el) => []);
+        const packScoreMaps = new Array(packCount)
+            .fill(0)
+            .map((el) => new Map());
+        packScoreMaps.forEach((pack) => {
+            this.players.forEach((player) => {
+                pack.set(player, 0);
+            });
+        });
+
+        this.matches.forEach((match) => {
+            // get all scores
+            const scores = [...packScoreMaps].map((scoreMap) => {
+                const _packScore = (
+                    match: Match,
+                    scoreMap: Map<string, number>
+                ) => {
+                    return match.flat().reduce((acc, player) => {
+                        return acc + scoreMap.get(player);
+                    }, 0);
+                };
+
+                return _packScore(match, scoreMap);
+            });
+
+            // find low score
+            const lowScore = Math.min(...scores);
+
+            const matchDestinationIndex = scores.indexOf(lowScore);
+
+            packs[matchDestinationIndex].push(match);
+
+            match.flat().forEach((player) => {
+                const value =
+                    packScoreMaps[matchDestinationIndex].get(player) + 1;
+                packScoreMaps[matchDestinationIndex].set(player, value);
+            });
+            // debugger;
+        });
+
+        packs.forEach((pack, index) => {
+            console.log(`\nPack: ${index}`);
+
+            pack.forEach((game) => {
+                console.log(JSON.stringify(game));
+            });
+        });
+
+        return packs;
+    }
 }
