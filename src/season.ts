@@ -7,6 +7,10 @@ declare global {
         playerCount?: number;
         generateFirstSeason?: boolean;
         isSeeded?: boolean;
+        rejectZeros?: boolean;
+    }
+    interface OppoList {
+        [key: string]: number;
     }
 }
 
@@ -15,6 +19,7 @@ export default class Season {
     public teams: Team[];
     public opts: SeasonOptions;
     public players: Player[];
+    public rejectZeros: boolean;
 
     constructor(options: SeasonOptions = {}) {
         this.opts = Object.assign(
@@ -23,6 +28,7 @@ export default class Season {
                 playerCount: 20,
                 generateFirstSeason: true,
                 isSeeded: true,
+                rejectZeros: true,
             },
             options
         );
@@ -33,8 +39,8 @@ export default class Season {
 
     generateSeason() {
         this.players = this.getLetterSequenceArray(this.opts.playerCount);
-        this.teams = this.combinePlayersIntoTeams(this.players);
-        this.matches = this.assignMatches(this.teams);
+        this.matches = this.assignMatchesViaWhistAlgorithm();
+        this.teams = this.matches.flat();
     }
 
     rng() {
@@ -50,6 +56,9 @@ export default class Season {
         return [...Array(n)].map((_, i) => {
             return String.fromCharCode('A'.charCodeAt(0) + i);
         });
+    };
+    getLetterFromNumber = (n: number): string => {
+        return String.fromCharCode('A'.charCodeAt(0) + n);
     };
 
     // get every team combo possible
@@ -135,32 +144,58 @@ export default class Season {
         return matches;
     };
 
-    assignMatchesOutsideIn(teams: Team[]): Match[] {
-        if (teams.length % 2 !== 0) {
-            throw new Error(
-                `Team Count of ${teams.length} results in leftover team.`
-            );
-        }
-        const mutateableTeams = [...teams];
-        const matches = Array(teams.length / 2)
-            .fill(0)
-            .map(() => {
-                return [mutateableTeams.shift(), mutateableTeams.pop()];
+    assignMatchesViaWhistAlgorithm = () => {
+        // http://www.durangobill.com/BridgeCyclicSolutions.html
+        let matches = [];
+        const magicNumbers = [
+            [14, 15, 19, 0],
+            [16, 18, 1, 10],
+            [4, 7, 6, 13],
+            [5, 9, 12, 17],
+            [2, 8, 3, 11],
+        ];
+
+        for (let offset = 0; offset < this.opts.playerCount - 1; offset++) {
+            const round = magicNumbers.map((table) => {
+                return table.map((seat) => {
+                    if (seat === 0) {
+                        return 'A';
+                    }
+                    let leftOfMod = 40000 + seat - offset;
+                    if (leftOfMod <= 40000) {
+                        leftOfMod -= 1;
+                    }
+                    let value = Math.abs(leftOfMod) % this.opts.playerCount;
+
+                    let letter = this.getLetterFromNumber(value);
+
+                    return letter;
+                });
             });
-        console.log(matches);
-        return matches as Match[];
-    }
+            matches.push(...round);
+        }
+
+        // return in matches format
+        return matches.map(
+            (m: string[]): Match => {
+                return [
+                    [m[0], m[1]],
+                    [m[2], m[3]],
+                ];
+            }
+        );
+    };
 
     getDeviationScore = (
         players: Player[] = this.players,
         matches: Match[] = this.matches
     ) => {
         // build map that tracks oppo matchups
-        const playerOpponentMap: Map<Player, {}> = new Map();
+        const playerOpponentMap: Map<Player, OppoList> = new Map();
         players.forEach((player, index, arr) => {
             const oppos = arr
                 .filter((oppo) => oppo !== player)
-                .reduce((obj, el, i) => {
+                .reduce((obj: OppoList, el, i) => {
                     obj[el] = 0;
                     return obj;
                 }, {});
@@ -172,7 +207,7 @@ export default class Season {
         matches.forEach((match, i, self) => {
             const leftSideOppos = match[0];
             const rightSideOppos = match[1];
-            const tallyOppos = (players, oppos) => {
+            const tallyOppos = (players: Player[], oppos: Player[]) => {
                 players.forEach((player) => {
                     oppos.forEach((oppo) => {
                         const key = playerOpponentMap.get(player);
@@ -201,7 +236,7 @@ export default class Season {
         const min = Math.min(...values.map((el) => el.min));
         const deviations = values.map((el) => el.deviation);
 
-        if (min <= 0) {
+        if (this.rejectZeros && min <= 0) {
             return Infinity;
         }
         const deviationSum = deviations.reduce((acc, cur) => acc + cur, 0);
