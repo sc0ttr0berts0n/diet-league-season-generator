@@ -2,13 +2,13 @@
 
 ### Pack 0
 
--   [ ] [G01] (Jengaleng & Chck vs. Lord Bro & Chimp)
 -   [ ] [G02] (Retrofro & Shally vs. Hoobsher & Nerd Cruncher)
 -   [ ] [G03] (PDP & Trooper vs. Nerd Cruncher & Gamer)
 -   [ ] [G04] (Nighty & Chimp vs. Retrofro & Hoobsher)
 -   [ ] [G05] (Chimp & Jengaleng vs. Trooper & Catcher)
--   [ ] [G06] (PDP & Chimp vs. Lord Bro & Skat)
 -   [ ] [G07] (Gamer & PDP vs. BeanSparrow & Shally)
+-   [ ] [G08] (Chck & BeanSparrow vs. Hoobsher & Jengaleng)
+-   [ ] [G11] (Jengaleng & Shally vs. BeanSparrow & Skat)
 
 ## Scratch Packs
 
@@ -16,12 +16,12 @@
 
 ### Pack 1
 
--   [ ] [G08] (Chck & BeanSparrow vs. Hoobsher & Jengaleng)
+-   [ ] [G13] (Shally & Trooper vs. Catcher & Nerd Cruncher)
+-   [ ] [G06] (PDP & Chimp vs. Lord Bro & Skat)
+-   [ ] [G01] (Jengaleng & Chck vs. Lord Bro & Chimp)
 -   [ ] [G09] (Rudy & PDP vs. Nighty & BeanSparrow)
 -   [ ] [G10] (Catcher & Chck vs. Rudy & Lord Bro)
--   [ ] [G11] (Jengaleng & Shally vs. BeanSparrow & Skat)
 -   [ ] [G12] (Rudy & Gamer vs. Nighty & Retrofro)
--   [ ] [G13] (Shally & Trooper vs. Catcher & Nerd Cruncher)
 -   [ ] [G14] (Retrofro & Gamer vs. Hoobsher & Chck)
 
 ### Pack 2
