@@ -1,86 +1,94 @@
+## Active Packs
+
 ### Pack 0
 
--   [ ] [G01] (JNG & CTR vs. BRO & MRC)
--   [ ] [G02] (FRO & SHA vs. HOB & NCR)
--   [ ] [G03] (PDP & TPR vs. NCR & GMR)
--   [ ] [G04] (NIT & MRC vs. FRO & HOB)
--   [ ] [G05] (MRC & JNG vs. TPR & CAT)
--   [ ] [G06] (PDP & MRC vs. BRO & SKT)
--   [ ] [G07] (GMR & PDP vs. CBS & SHA)
+-   [ ] [G01] (Jengaleng & Chck vs. Lord Bro & Chimp)
+-   [ ] [G02] (Retrofro & Shally vs. Hoobsher & Nerd Cruncher)
+-   [ ] [G03] (PDP & Trooper vs. Nerd Cruncher & Gamer)
+-   [ ] [G04] (Nighty & Chimp vs. Retrofro & Hoobsher)
+-   [ ] [G05] (Chimp & Jengaleng vs. Trooper & Catcher)
+-   [ ] [G06] (PDP & Chimp vs. Lord Bro & Skat)
+-   [ ] [G07] (Gamer & PDP vs. BeanSparrow & Shally)
+
+## Scratch Packs
+
+## Unopened Packs
 
 ### Pack 1
 
--   [ ] [G08] (CTR & CBS vs. HOB & JNG)
--   [ ] [G09] (RGP & PDP vs. NIT & CBS)
--   [ ] [G10] (CAT & CTR vs. RGP & BRO)
--   [ ] [G11] (JNG & SHA vs. CBS & SKT)
--   [ ] [G12] (RGP & GMR vs. NIT & FRO)
--   [ ] [G13] (SHA & TPR vs. CAT & NCR)
--   [ ] [G14] (FRO & GMR vs. HOB & CTR)
+-   [ ] [G08] (Chck & BeanSparrow vs. Hoobsher & Jengaleng)
+-   [ ] [G09] (Rudy & PDP vs. Nighty & BeanSparrow)
+-   [ ] [G10] (Catcher & Chck vs. Rudy & Lord Bro)
+-   [ ] [G11] (Jengaleng & Shally vs. BeanSparrow & Skat)
+-   [ ] [G12] (Rudy & Gamer vs. Nighty & Retrofro)
+-   [ ] [G13] (Shally & Trooper vs. Catcher & Nerd Cruncher)
+-   [ ] [G14] (Retrofro & Gamer vs. Hoobsher & Chck)
 
 ### Pack 2
 
--   [ ] [G15] (GMR & CAT vs. TPR & SKT)
--   [ ] [G16] (NCR & RGP vs. BRO & CBS)
--   [ ] [G17] (SHA & NIT vs. PDP & SKT)
--   [ ] [G18] (HOB & CAT vs. NCR & BRO)
--   [ ] [G19] (NIT & JNG vs. FRO & TPR)
--   [ ] [G20] (MRC & RGP vs. CTR & SKT)
--   [ ] [G21] (CAT & MRC vs. PDP & NIT)
+-   [ ] [G15] (Gamer & Catcher vs. Trooper & Skat)
+-   [ ] [G16] (Nerd Cruncher & Rudy vs. Lord Bro & BeanSparrow)
+-   [ ] [G17] (Shally & Nighty vs. PDP & Skat)
+-   [ ] [G18] (Hoobsher & Catcher vs. Nerd Cruncher & Lord Bro)
+-   [ ] [G19] (Nighty & Jengaleng vs. Retrofro & Trooper)
+-   [ ] [G20] (Chimp & Rudy vs. Chck & Skat)
+-   [ ] [G21] (Catcher & Chimp vs. PDP & Nighty)
 
 ### Pack 3
 
--   [ ] [G22] (CBS & FRO vs. TPR & CTR)
--   [ ] [G23] (NCR & SHA vs. BRO & JNG)
--   [ ] [G24] (RGP & HOB vs. GMR & SKT)
--   [ ] [G25] (SHA & GMR vs. CTR & RGP)
--   [ ] [G26] (BRO & NIT vs. CBS & TPR)
--   [ ] [G27] (HOB & MRC vs. NCR & PDP)
--   [ ] [G28] (CAT & FRO vs. JNG & SKT)
+-   [ ] [G22] (BeanSparrow & Retrofro vs. Trooper & Chck)
+-   [ ] [G23] (Nerd Cruncher & Shally vs. Lord Bro & Jengaleng)
+-   [ ] [G24] (Rudy & Hoobsher vs. Gamer & Skat)
+-   [ ] [G25] (Shally & Gamer vs. Chck & Rudy)
+-   [ ] [G26] (Lord Bro & Nighty vs. BeanSparrow & Trooper)
+-   [ ] [G27] (Hoobsher & Chimp vs. Nerd Cruncher & PDP)
+-   [ ] [G28] (Catcher & Retrofro vs. Jengaleng & Skat)
 
 ### Pack 4
 
--   [ ] [G29] (NIT & CAT vs. GMR & HOB)
--   [ ] [G30] (CTR & NCR vs. PDP & JNG)
--   [ ] [G31] (CBS & RGP vs. TPR & MRC)
--   [ ] [G32] (FRO & BRO vs. SHA & SKT)
--   [ ] [G33] (RGP & SHA vs. JNG & FRO)
--   [ ] [G34] (TPR & HOB vs. CTR & PDP)
--   [ ] [G35] (BRO & CAT vs. CBS & GMR)
+-   [ ] [G29] (Nighty & Catcher vs. Gamer & Hoobsher)
+-   [ ] [G30] (Chck & Nerd Cruncher vs. PDP & Jengaleng)
+-   [ ] [G31] (BeanSparrow & Rudy vs. Trooper & Chimp)
+-   [ ] [G32] (Retrofro & Lord Bro vs. Shally & Skat)
+-   [ ] [G33] (Rudy & Shally vs. Jengaleng & Retrofro)
+-   [ ] [G34] (Trooper & Hoobsher vs. Chck & PDP)
+-   [ ] [G35] (Lord Bro & Catcher vs. BeanSparrow & Gamer)
 
 ### Pack 5
 
--   [ ] [G36] (NIT & NCR vs. MRC & SKT)
--   [ ] [G37] (HOB & NIT vs. SHA & BRO)
--   [ ] [G38] (JNG & CBS vs. GMR & MRC)
--   [ ] [G39] (CTR & FRO vs. PDP & CAT)
--   [ ] [G40] (NCR & TPR vs. RGP & SKT)
--   [ ] [G41] (FRO & RGP vs. MRC & NCR)
--   [ ] [G42] (PDP & BRO vs. JNG & GMR)
+-   [ ] [G36] (Nighty & Nerd Cruncher vs. Chimp & Skat)
+-   [ ] [G37] (Hoobsher & Nighty vs. Shally & Lord Bro)
+-   [ ] [G38] (Jengaleng & BeanSparrow vs. Gamer & Chimp)
+-   [ ] [G39] (Chck & Retrofro vs. PDP & Catcher)
+-   [ ] [G40] (Nerd Cruncher & Trooper vs. Rudy & Skat)
+-   [ ] [G41] (Retrofro & Rudy vs. Chimp & Nerd Cruncher)
+-   [ ] [G42] (PDP & Lord Bro vs. Jengaleng & Gamer)
 
 ### Pack 6
 
--   [ ] [G43] (TPR & NIT vs. CTR & SHA)
--   [ ] [G44] (HOB & CBS vs. CAT & SKT)
--   [ ] [G45] (BRO & HOB vs. RGP & TPR)
--   [ ] [G46] (MRC & CTR vs. SHA & CAT)
--   [ ] [G47] (JNG & NCR vs. GMR & NIT)
--   [ ] [G48] (CBS & PDP vs. FRO & SKT)
--   [ ] [G49] (NCR & FRO vs. CAT & CBS)
+-   [ ] [G43] (Trooper & Nighty vs. Chck & Shally)
+-   [ ] [G44] (Hoobsher & BeanSparrow vs. Catcher & Skat)
+-   [ ] [G45] (Lord Bro & Hoobsher vs. Rudy & Trooper)
+-   [ ] [G46] (Chimp & Chck vs. Shally & Catcher)
+-   [ ] [G47] (Jengaleng & Nerd Cruncher vs. Gamer & Nighty)
+-   [ ] [G48] (BeanSparrow & PDP vs. Retrofro & Skat)
+-   [ ] [G49] (Nerd Cruncher & Retrofro vs. Catcher & BeanSparrow)
 
 ### Pack 7
 
--   [ ] [G50] (GMR & TPR vs. MRC & SHA)
--   [ ] [G51] (PDP & HOB vs. JNG & RGP)
--   [ ] [G52] (BRO & CTR vs. NIT & SKT)
--   [ ] [G53] (TPR & BRO vs. FRO & PDP)
--   [ ] [G54] (CAT & JNG vs. RGP & NIT)
--   [ ] [G55] (MRC & CBS vs. SHA & HOB)
--   [ ] [G56] (CTR & GMR vs. NCR & SKT)
+-   [ ] [G50] (Gamer & Trooper vs. Chimp & Shally)
+-   [ ] [G51] (PDP & Hoobsher vs. Jengaleng & Rudy)
+-   [ ] [G52] (Lord Bro & Chck vs. Nighty & Skat)
+-   [ ] [G53] (Trooper & Lord Bro vs. Retrofro & PDP)
+-   [ ] [G54] (Catcher & Jengaleng vs. Rudy & Nighty)
+-   [ ] [G55] (Chimp & BeanSparrow vs. Shally & Hoobsher)
+-   [ ] [G56] (Chck & Gamer vs. Nerd Cruncher & Skat)
 
 ### Pack 8
 
--   [ ] [G57] (CBS & NCR vs. NIT & CTR)
--   [ ] [G58] (SHA & PDP vs. CAT & RGP)
--   [ ] [G59] (GMR & BRO vs. MRC & FRO)
--   [ ] [G60] (TPR & JNG vs. HOB & SKT)
+-   [ ] [G57] (BeanSparrow & Nerd Cruncher vs. Nighty & Chck)
+-   [ ] [G58] (Shally & PDP vs. Catcher & Rudy)
+-   [ ] [G59] (Gamer & Lord Bro vs. Chimp & Retrofro)
+-   [ ] [G60] (Trooper & Jengaleng vs. Hoobsher & Skat)
+
+## Completed Packs
