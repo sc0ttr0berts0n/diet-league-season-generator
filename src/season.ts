@@ -151,11 +151,11 @@ export default class Season {
         // http://www.durangobill.com/BridgeCyclicSolutions.html
         let matches = [];
         const magicNumbers = [
-            [14, 15, 19, 0],
-            [16, 18, 1, 10],
-            [4, 7, 6, 13],
-            [5, 9, 12, 17],
-            [2, 8, 3, 11],
+            // # 28: 6   7   1   5   10  12   2   9   11  14   3   8   13   4  15   0
+            [6, 7, 1, 5],
+            [10, 12, 2, 9],
+            [11, 14, 3, 8],
+            [13, 4, 15, 0],
         ];
 
         for (let offset = 0; offset < this.opts.playerCount - 1; offset++) {
@@ -179,14 +179,12 @@ export default class Season {
         }
 
         // return in matches format
-        return matches.map(
-            (m: string[]): Match => {
-                return [
-                    [m[0], m[1]],
-                    [m[2], m[3]],
-                ];
-            }
-        );
+        return matches.map((m: string[]): Match => {
+            return [
+                [m[0], m[1]],
+                [m[2], m[3]],
+            ];
+        });
     };
 
     getDeviationScore = (
@@ -248,7 +246,7 @@ export default class Season {
         return deviationScore;
     };
 
-    getSchedule(packCount = 10) {
+    getSchedule(packCount = 7) {
         // const packs = new Array(packCount).fill(new Set());
         const packs = new Array(packCount).fill(0).map((el) => []);
         const packScoreMaps = new Array(packCount)

@@ -1,3 +1,4 @@
 import Season from './season';
 
-const season = new Season({ playerCount: 20 });
+const season = new Season({ playerCount: 16 });
+debugger;
