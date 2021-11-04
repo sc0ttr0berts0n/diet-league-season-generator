@@ -13,28 +13,9 @@
 
 ## Schedule Changes
 
-RGP - no S 11/6
-BRO - no S 11/6
+RGP - No S 11/6
+BRO - No S 11/6
+CBS - No S 11/20
 FRO - Maybe S 11/6
 JNG - Tries to go first
 NCR - All M Works til 8:30, schedule last
-CBS - Maybe S 11/20
-
-## Talked With About Schedule
-
--   SKT - open
--   BRO - open
--   HOB - open
--   NIT - open
--   CAT - open
--   MRC - open
--   JNG - open
--   CTR - open
--   CBS - open
--   NCR - noted above
--   FRO - noted above
--   RGP - open
--   SHA - Weekends May be iffy
--   GMR - open
--   PDP - wiiiide open
--   TRO - will try
