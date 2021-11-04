@@ -13,23 +13,25 @@
 
 ## Schedule Changes
 
-(none)
+RGP - no M 11/6
+BRO - no M 11/6
+JNG - Tries to go first
 
 ## Talked With About Schedule
 
 -   SKT - open
--   BRO - [No Contact]
--   HOB - [No Contact]
--   NIT - [No Contact]
--   CAT - [No Contact]
--   MRC - [No Contact]
--   JNG - [No Contact]
--   CTR - [No Contact]
+-   BRO - open
+-   HOB - open
+-   NIT - open
+-   CAT - open
+-   MRC - open
+-   JNG - open
+-   CTR - open
 -   CBS - [No Contact]
 -   NCR - [No Contact]
 -   FRO - [No Contact]
--   RGP - [No Contact]
--   SHA - [No Contact]
+-   RGP - open
+-   SHA - Weekends May be iffy
 -   GMR - open
--   PDP - [No Contact]
--   TRO - [No Contact]
+-   PDP - wiiiide open
+-   TRO - will try

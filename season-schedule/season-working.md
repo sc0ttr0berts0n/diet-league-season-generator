@@ -17,32 +17,32 @@
 ### Pack 1
 
 -   [ ] [G13] (Shally & Trooper vs. Catcher & Nerd Cruncher)
--   [ ] [G06] (PDP & Chimp vs. Lord Bro & Skat)
--   [ ] [G01] (Jengaleng & Chck vs. Lord Bro & Chimp)
--   [ ] [G09] (Rudy & PDP vs. Nighty & BeanSparrow)
--   [ ] [G10] (Catcher & Chck vs. Rudy & Lord Bro)
--   [ ] [G12] (Rudy & Gamer vs. Nighty & Retrofro)
 -   [ ] [G14] (Retrofro & Gamer vs. Hoobsher & Chck)
+-   [ ] [G18] (Hoobsher & Catcher vs. Nerd Cruncher & Lord Bro)
+-   [ ] [G19] (Nighty & Jengaleng vs. Retrofro & Trooper)
+-   [ ] [G21] (Catcher & Chimp vs. PDP & Nighty)
+-   [ ] [G22] (BeanSparrow & Retrofro vs. Trooper & Chck)
+-   [ ] [G28] (Catcher & Retrofro vs. Jengaleng & Skat)
 
 ### Pack 2
 
--   [ ] [G15] (Gamer & Catcher vs. Trooper & Skat)
+-   [ ] [G06] (PDP & Chimp vs. Lord Bro & Skat)
+-   [ ] [G01] (Jengaleng & Chck vs. Lord Bro & Chimp)
+-   [ ] [G10] (Catcher & Chck vs. Rudy & Lord Bro)
 -   [ ] [G16] (Nerd Cruncher & Rudy vs. Lord Bro & BeanSparrow)
 -   [ ] [G17] (Shally & Nighty vs. PDP & Skat)
--   [ ] [G18] (Hoobsher & Catcher vs. Nerd Cruncher & Lord Bro)
--   [ ] [G19] (Nighty & Jengaleng vs. Retrofro & Trooper)
 -   [ ] [G20] (Chimp & Rudy vs. Chck & Skat)
--   [ ] [G21] (Catcher & Chimp vs. PDP & Nighty)
+-   [ ] [G09] (Rudy & PDP vs. Nighty & BeanSparrow)
 
 ### Pack 3
 
--   [ ] [G22] (BeanSparrow & Retrofro vs. Trooper & Chck)
+-   [ ] [G12] (Rudy & Gamer vs. Nighty & Retrofro)
 -   [ ] [G23] (Nerd Cruncher & Shally vs. Lord Bro & Jengaleng)
 -   [ ] [G24] (Rudy & Hoobsher vs. Gamer & Skat)
--   [ ] [G25] (Shally & Gamer vs. Chck & Rudy)
 -   [ ] [G26] (Lord Bro & Nighty vs. BeanSparrow & Trooper)
+-   [ ] [G25] (Shally & Gamer vs. Chck & Rudy)
 -   [ ] [G27] (Hoobsher & Chimp vs. Nerd Cruncher & PDP)
--   [ ] [G28] (Catcher & Retrofro vs. Jengaleng & Skat)
+-   [ ] [G15] (Gamer & Catcher vs. Trooper & Skat)
 
 ### Pack 4
 
